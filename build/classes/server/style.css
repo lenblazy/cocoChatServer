@@ -1,0 +1,93 @@
+.toggle-button, .button{
+    -fx-background-color: linear-gradient(#a17705, #3c2d03);
+    -fx-text-fill: #62f236;
+    -fx-background-radius: 30.0;
+}
+
+.button:pressed, .toggle-button:pressed {
+    -fx-effect: dropshadow(gaussian , red, 2, 2, 2, 2) ;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(green, black);
+    -fx-text-fill: #ff0033;
+    -fx-text-size: 15pt;
+}
+
+.toggle-button:hover, .button:hover {
+    -fx-background-color: linear-gradient(green, black);
+    -fx-text-fill: #ff0033;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.text-field{
+    -fx-background-color: #b3ad7c;
+    -fx-background-radius: 20.0;
+    -fx-text-fill: #040404;
+    -fx-prompt-text-fill: #1b73e0;
+    -fx-text-size: 12pt;
+    -fx-border-color: linear-gradient(#a17705, #3c2d03);
+    -fx-border-radius: 20.0;
+}
+
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+-fx-background-color: white;
+}
+
+
+#combo-on{
+    -fx-background-color: #166706;
+    -fx-background-radius: 20.0;
+    -fx-text-fill: LIGHTBLUE;
+    -fx-border-radius: 10;
+    -fx-border-color: silver;
+}
+
+#combo-off{
+    -fx-background-color: RED;
+    -fx-background-radius: 20.0;
+    -fx-text-fill: LIGHTBLUE;
+    -fx-border-radius: 10;
+    -fx-border-color: silver;
+}
+
+#child-style{
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: green;
+}
+
+#root-style{
+    -fx-font-family: serif;
+    -fx-background-color: #c1b237;
+    -fx-font-size: 12pt;
+}
+
+#bday{
+    -fx-border-radius: 0;
+}
+
+.combo-box{
+    -fx-background-color: #b3ad7c;
+    -fx-background-radius: 30.0;
+    -fx-prompt-text-fill: #1b73e0;
+    -fx-border-radius: 30.0;
+    -fx-border-color: silver;
+}
+
+.combo-box:hover{
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+#conn{
+    -fx-background-color: #5fc63b;
+    -fx-background-radius: 30.0;
+    -fx-prompt-text-fill: #1b73e0;
+    -fx-border-radius: 30.0;
+    -fx-border-color: brown;
+}
+
+#app-title {
+    -fx-font-size: 26px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #62f236;
+    -fx-effect: innershadow( three-pass-box, rgba(0,0,0,0.7), 6, 0.0, 0, 2);
+}
